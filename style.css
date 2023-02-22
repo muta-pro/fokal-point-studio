@@ -1,0 +1,104 @@
+/*Selector{
+	Proprety: value;
+}*/
+body,
+html {
+	width: 100%;
+	height: 100%;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 700;
+     background: url(music.jpg) no-repeat center center fixed; 
+	  -webkit-background-size: cover;
+	  -moz-background-size: cover;
+	  -o-background-size: cover;
+	  background-size: cover;
+}
+hr {
+    margin: 20px auto;
+    border: 3px solid whitesmoke;
+    max-width: 65px;
+    opacity: 1;  
+}
+h1 {
+	font-family: 'Roboto Mono', monospace;
+	font-size: 3em;
+	color:#FFFDDA;
+	cursor: pointer;
+	text-align: center;
+}
+.btn-xl {
+	padding: 1rem 2rem;
+}
+.btn {
+	font-weight: 700;
+	border-radius: 300px;
+	text-transform: uppercase;
+}
+.btn-light {
+	background-color: red;
+	border-color: red;
+    --bs-btn-hover-bg: #ee4b08;	
+    --bs-btn-hover-border-color: #ee4b08;
+}
+h2 {
+	text-align: center;
+	color: rgba(231, 225, 194, 0.6);
+}
+a {
+	text-decoration: underline;
+	color:black;
+}
+a:hover {
+	text-decoration: none;
+	color: whitesmoke;
+}
+.webtext {
+	 list-style: none;
+	 display: inline-block; 
+	 background-color: whitesmoke;
+	 border-color: #E4D489;
+	 border-radius: 20px;
+	 margin: 10px;
+ }
+.active {
+	background-color: floralwhite;
+
+}
+#div1 ul li {
+	background: black;
+	list-style-type: initial;
+	display: inline-block;
+	margin: 10px;
+	border-radius: 10px;
+    box-shadow: 0 0 20px 5px floralwhite;
+}
+#div1 ul li:hover {
+	color: black;
+}
+p {
+	font-family: 'Roboto Mono', monospace;
+	font-size: 90%;
+	line-height: 30px;
+}
+img {
+	float: right;
+	width: 400x;
+	height: 250px;
+	margin: 20px;
+	transition: all 1s;
+}
+img:hover {
+	transform: scale(2.2);
+
+}
+.container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+footer {
+	background-color:#E4D489;
+	clear: both;
+	text-align: center;
+}
